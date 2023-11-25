@@ -1,0 +1,49 @@
+* { 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    background: url("./imgs/weatherbackground.jpg") no-repeat;
+    background-size: cover;
+
+}
+
+.container { 
+    background-color: aqua;
+    margin: 30px auto;
+    width: 60%;
+    padding: 30px; 
+    text-align: center;
+    }
+
+    .dataEntry { 
+        display: flex; 
+        flex-direction: column; 
+        gap: 5px; 
+        padding: 20px; 
+    }
+
+    .flex  { 
+        height: 30px; 
+        border: 0; 
+        outline: 0; 
+        padding: 20px;
+    }
+
+    .submitBtn { 
+        background-color: red;
+        outline:  0; 
+        border:  0; 
+        color: white; 
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .submitBtn:hover { 
+       cursor: pointer; 
+       opacity: 0.8;
+    }
+
